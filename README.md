@@ -19,9 +19,6 @@ Electronic City, It's about all the services you may need inside Sharm El-Sheikh
   
 </p>
 
-# APK File Download
-You Can Download the APK File from <a href="https://goo.gl/7hSS6V"><b>This Link</b></a>.
-
 # Important Notes
 
 This is my First ever Android Application, this is the result of 4 weeks of working and no experience with android, May be my <b><a href="https://github.com/Ahmeda1708/TheHotel_MyHome">Second Application</a></b> is a little bit better than this, and the coming is more better.
