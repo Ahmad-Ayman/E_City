@@ -35,7 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Copyright © 2017 Dr . Hesham"
+        android:text="Copyright © 2017"
         android:paddingTop="30dp"
         android:textDirection="rtl"
     />
