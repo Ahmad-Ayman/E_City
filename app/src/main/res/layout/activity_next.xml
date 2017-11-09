@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_next"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="#4381ef">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/templatemo_logo" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="عن المدينة"
+    android:layout_marginTop="200dp"
+    android:gravity="center"
+    android:textColor="#ffffff"
+    android:id="@+id/titlee"/>
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="40dp"
+        android:text="@string/about"
+        android:textDirection="rtl"
+        android:textSize="20dp"
+        android:layout_marginTop="270dp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_fb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        app:srcCompat="@drawable/fb2"
+        android:layout_marginBottom="180dp"
+        app:backgroundTint="@color/fab1_color"
+        android:visibility="invisible"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        app:srcCompat="@drawable/tw2"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="100dp"
+        app:backgroundTint="@color/fab2_color"
+        android:visibility="invisible"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        app:srcCompat="@drawable/sharing"
+        android:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        android:layout_marginBottom="16dp"/>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="الحجوزات">
+        <menu>
+            <item
+                android:id="@+id/nav_resturant"
+                android:icon="@drawable/restaurant"
+                android:title="حجز المطاعم" />
+            <item
+                android:id="@+id/nav_hotels"
+                android:icon="@drawable/star_hotel1600"
+                android:title="حجز الفنادق" />
+            <item
+                android:id="@+id/nav_airlines"
+                android:icon="@drawable/airport"
+                android:title="حجز الطيران" />
+            <item
+                android:id="@+id/nav_companies"
+                android:icon="@drawable/org"
+                android:title="حجز شركات السياحة" />
+        </menu>
+    </item>
+
+    <item android:title="خدمات للمصريين">
+        <menu>
+            <item
+                android:id="@+id/nav_id"
+                android:icon="@drawable/idcard"
+                android:title="استخراج رقم قومي" />
+            <item
+                android:id="@+id/nav_brith"
+                android:icon="@drawable/birthhh"
+                android:title="استخراج شهادة ميلاد" />
+            <item
+                android:id="@+id/nav_drive"
+                android:icon="@drawable/wheel"
+                android:title="استخراج مخالفات القيادة" />
+            <item
+                android:id="@+id/nav_electricity"
+                android:icon="@drawable/electric"
+                android:title="خدمات الكهرباء" />
+            <item
+                android:id="@+id/nav_water"
+                android:icon="@drawable/water"
+                android:title="خدمات المياه" />
+            <item
+                android:id="@+id/nav_phone"
+                android:icon="@drawable/phone"
+                android:title="خدمات التليفون" />
+        </menu>
+    </item>
+    <item android:title="خدمات للأجانب">
+        <menu>
+            <item
+                android:id="@+id/nav_lost"
+                android:icon="@drawable/passport"
+                android:title="ابلاغ عن فقد جواز السفر" />
+            <item
+                android:id="@+id/nav_empassy"
+                android:icon="@drawable/empassy"
+                android:title="القنصليات والسفارات" />
+            <item
+                android:id="@+id/nav_carrent"
+                android:icon="@drawable/carrent"
+                android:title="طلب تأجير سيارة خاصة" />
+            <item
+                android:id="@+id/nav_complement"
+                android:icon="@drawable/compaint"
+                android:title="تقديم شكوى" />
+        </menu>
+    </item>
+    <item android:title="المزيد">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/about"
+                android:title="عن المدينة" />
+
+
+
+        </menu>
+    </item>
+
+</menu>
